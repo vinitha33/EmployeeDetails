@@ -1,0 +1,1 @@
+CREATE TABLE rating(rating_id VARCHAR(15) PRIMARY KEY, rating_desc VARCHAR(25),rating_comments VARCHAR(150));

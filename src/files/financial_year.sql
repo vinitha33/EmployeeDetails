@@ -1,0 +1,1 @@
+CREATE TABLE financial_year(finance_id VARCHAR(10) PRIMARY KEY, quarter VARCHAR(10));

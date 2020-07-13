@@ -1,0 +1,1 @@
+CREATE TABLE department(dept_id VARCHAR(10) PRIMARY KEY,d_name VARCHAR(30));

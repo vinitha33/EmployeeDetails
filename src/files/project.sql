@@ -1,0 +1,1 @@
+CREATE TABLE project(project_id VARCHAR(15) PRIMARY KEY,project_name VARCHAR(50), client_name VARCHAR(30),client_location VARCHAR(10),project_start_date DATE,project_end_date DATE);

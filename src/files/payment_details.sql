@@ -1,0 +1,1 @@
+CREATE TABLE Payment_Details(payment_id VARCHAR(10) PRIMARY KEY,payment_type VARCHAR(25));

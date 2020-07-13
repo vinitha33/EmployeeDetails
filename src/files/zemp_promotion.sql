@@ -1,0 +1,1 @@
+CREATE TABLE zemp_promotion(emp_id BIGINT REFERENCES employee(emp_id),title_id VARCHAR(15) REFERENCES title(title_id),performance_id VARCHAR(15) REFERENCES performance(performance_id),rating_id VARCHAR(15) REFERENCES rating(rating_id),finance_id VARCHAR(15) REFERENCES Financial_year(finance_id),slab_id VARCHAR(15) REFERENCES Salary_slab(slab_id));

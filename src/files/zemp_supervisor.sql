@@ -1,0 +1,1 @@
+CREATE TABLE zemp_supervisor(emp_id BIGINT REFERENCES employee(emp_id),title_id VARCHAR(15) REFERENCES title(title_id),dept_id VARCHAR(15) REFERENCES department(dept_id),project_id VARCHAR(15) REFERENCES project(project_id),team_id VARCHAR(10) REFERENCES team(team_id),role_id VARCHAR(15) REFERENCES role(role_id));

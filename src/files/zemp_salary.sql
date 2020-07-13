@@ -1,0 +1,1 @@
+CREATE TABLE zemp_salary(emp_id BIGINT REFERENCES employee(emp_id) ,title_id VARCHAR(15) REFERENCES title(title_id),rating_id VARCHAR(15) REFERENCES rating (rating_id),payment_id VARCHAR(15) REFERENCES payment_details(payment_id),slab_id VARCHAR(15) REFERENCES Salary_slab(slab_id));

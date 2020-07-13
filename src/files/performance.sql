@@ -1,0 +1,1 @@
+CREATE TABLE performance(perform_id VARCHAR(10) PRIMARY KEY,perform_desc VARCHAR(150));

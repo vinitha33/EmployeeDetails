@@ -1,0 +1,1 @@
+CREATE TABLE Salary_slab(slab_id VARCHAR(10) PRIMARY KEY,salary_slab INT,slab_desc VARCHAR(100));
